@@ -7,6 +7,7 @@ turn = 0
 scorep1 = 0
 scorep2 = 0
 
+
 def prt_gameboard():
     print(gameboard["7"] + " | " + gameboard["8"] + " | " + gameboard["9"])
     print("---------")
@@ -170,7 +171,7 @@ def meta_gameover():
     global gameover
     global scorep2
     global scorep1
-    print("Player 1 - "+ str(scorep2) + " | " + str(scorep1) + " - Player 2")
+    print("Player 1 - " + str(scorep2) + " | " + str(scorep1) + " - Player 2")
     print("Thes na pekseis pali?")
     x = input("y/n: ")
     if x == "y":
